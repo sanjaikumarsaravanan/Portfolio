@@ -1,0 +1,74 @@
+ /* External CSS file */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+}
+
+header, footer {
+    background: #006983c7;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #ffe082;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+nav a:hover {
+    color: #fff176;
+    text-decoration: underline;
+}
+
+main {
+    padding: 6em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+figure {
+    float: left;
+    margin: 0 1.5em 1em 0;
+}
+
+img.profile {
+    border-radius: 50%;
+    width: 160px;
+}
+
+article {
+    background: #e3eaf2;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+button, input[type="submit"] {
+    background: #000000c7;
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #192a56;
+}
